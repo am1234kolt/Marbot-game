@@ -1,0 +1,542 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../gl/gl_main.h
+GLFW/glfw3.h
+../gl/GLFW/glfw3.h
+gl_object.h
+../gl/gl_object.h
+string
+-
+memory
+-
+vector
+-
+functional
+-
+
+../gl/gl_martian.h
+gl_object.h
+../gl/gl_object.h
+utility
+-
+cmath
+-
+../position_t.h
+../position_t.h
+
+../gl/gl_maze.h
+vector
+-
+array
+-
+algorithm
+-
+iostream
+-
+gl_object.h
+../gl/gl_object.h
+gl_wall.h
+../gl/gl_wall.h
+gl_mineral.h
+../gl/gl_mineral.h
+
+../gl/gl_mineral.h
+gl_object.h
+../gl/gl_object.h
+
+../gl/gl_object.h
+GLFW/glfw3.h
+../gl/GLFW/glfw3.h
+
+../gl/gl_robot.h
+gl_object.h
+../gl/gl_object.h
+utility
+-
+functional
+-
+cmath
+-
+iostream
+-
+GLFW/glfw3.h
+../gl/GLFW/glfw3.h
+../position_t.h
+../position_t.h
+
+../gl/gl_wall.h
+gl_object.h
+../gl/gl_object.h
+
+../glfw/include/GLFW/glfw3.h
+stddef.h
+-
+stdint.h
+-
+OpenGL/gl3.h
+-
+OpenGL/gl3ext.h
+-
+OpenGL/gl.h
+-
+OpenGL/glu.h
+-
+GL/glcorearb.h
+-
+GLES/gl.h
+-
+GLES/glext.h
+-
+GLES2/gl2.h
+-
+GLES2/gl2ext.h
+-
+GLES3/gl3.h
+-
+GLES2/gl2ext.h
+-
+GLES3/gl31.h
+-
+GLES2/gl2ext.h
+-
+vulkan/vulkan.h
+-
+GL/gl.h
+-
+GL/glext.h
+-
+GL/glu.h
+-
+
+../position_t.h
+ostream
+-
+cmath
+-
+
+/Users/coltsoff/CLionProjects/Marbot game/cargo.cpp
+cargo.h
+/Users/coltsoff/CLionProjects/Marbot game/cargo.h
+
+/Users/coltsoff/CLionProjects/Marbot game/cargo.h
+unordered_map
+-
+vector
+-
+mineral.h
+/Users/coltsoff/CLionProjects/Marbot game/mineral.h
+
+/Users/coltsoff/CLionProjects/Marbot game/cell_t.h
+ostream
+-
+
+/Users/coltsoff/CLionProjects/Marbot game/command_adapter.cpp
+command_adapter.h
+/Users/coltsoff/CLionProjects/Marbot game/command_adapter.h
+mineral_probe.h
+/Users/coltsoff/CLionProjects/Marbot game/mineral_probe.h
+GLFW/glfw3.h
+/Users/coltsoff/CLionProjects/Marbot game/GLFW/glfw3.h
+
+/Users/coltsoff/CLionProjects/Marbot game/command_adapter.h
+memory
+-
+stdexcept
+-
+functional
+-
+maze.h
+/Users/coltsoff/CLionProjects/Marbot game/maze.h
+gl_robot.h
+/Users/coltsoff/CLionProjects/Marbot game/gl_robot.h
+mineral_probe.h
+/Users/coltsoff/CLionProjects/Marbot game/mineral_probe.h
+command_processor.h
+/Users/coltsoff/CLionProjects/Marbot game/command_processor.h
+position_t.h
+/Users/coltsoff/CLionProjects/Marbot game/position_t.h
+direction.h
+/Users/coltsoff/CLionProjects/Marbot game/direction.h
+
+/Users/coltsoff/CLionProjects/Marbot game/command_processor.cpp
+iomanip
+-
+command_processor.h
+/Users/coltsoff/CLionProjects/Marbot game/command_processor.h
+mineral_probe.h
+/Users/coltsoff/CLionProjects/Marbot game/mineral_probe.h
+command_adapter.h
+/Users/coltsoff/CLionProjects/Marbot game/command_adapter.h
+
+/Users/coltsoff/CLionProjects/Marbot game/command_processor.h
+ostream
+-
+iostream
+-
+string
+-
+regex
+-
+unordered_set
+-
+
+/Users/coltsoff/CLionProjects/Marbot game/direction.h
+ostream
+-
+
+/Users/coltsoff/CLionProjects/Marbot game/game.cpp
+game.h
+/Users/coltsoff/CLionProjects/Marbot game/game.h
+functional
+-
+cell_t.h
+/Users/coltsoff/CLionProjects/Marbot game/cell_t.h
+path_marbot.h
+/Users/coltsoff/CLionProjects/Marbot game/path_marbot.h
+manu_marbot.h
+/Users/coltsoff/CLionProjects/Marbot game/manu_marbot.h
+cmath
+-
+
+/Users/coltsoff/CLionProjects/Marbot game/game.h
+memory
+-
+gl_martian.h
+/Users/coltsoff/CLionProjects/Marbot game/gl_martian.h
+gl_maze.h
+/Users/coltsoff/CLionProjects/Marbot game/gl_maze.h
+maze.h
+/Users/coltsoff/CLionProjects/Marbot game/maze.h
+gl_main.h
+/Users/coltsoff/CLionProjects/Marbot game/gl_main.h
+mineral_probe.h
+/Users/coltsoff/CLionProjects/Marbot game/mineral_probe.h
+marbot.h
+/Users/coltsoff/CLionProjects/Marbot game/marbot.h
+gl_robot.h
+/Users/coltsoff/CLionProjects/Marbot game/gl_robot.h
+route.h
+/Users/coltsoff/CLionProjects/Marbot game/route.h
+pathfinder.h
+/Users/coltsoff/CLionProjects/Marbot game/pathfinder.h
+command_processor.h
+/Users/coltsoff/CLionProjects/Marbot game/command_processor.h
+command_adapter.h
+/Users/coltsoff/CLionProjects/Marbot game/command_adapter.h
+keyboard_reader.h
+/Users/coltsoff/CLionProjects/Marbot game/keyboard_reader.h
+martian.h
+/Users/coltsoff/CLionProjects/Marbot game/martian.h
+tunnel_map.h
+/Users/coltsoff/CLionProjects/Marbot game/tunnel_map.h
+
+/Users/coltsoff/CLionProjects/Marbot game/gl/gl_main.cpp
+gl_main.h
+/Users/coltsoff/CLionProjects/Marbot game/gl/gl_main.h
+GLFW/glfw3.h
+/Users/coltsoff/CLionProjects/Marbot game/gl/GLFW/glfw3.h
+stdexcept
+-
+
+/Users/coltsoff/CLionProjects/Marbot game/gl/gl_main.h
+GLFW/glfw3.h
+/Users/coltsoff/CLionProjects/Marbot game/gl/GLFW/glfw3.h
+gl_object.h
+/Users/coltsoff/CLionProjects/Marbot game/gl/gl_object.h
+string
+-
+memory
+-
+vector
+-
+functional
+-
+
+/Users/coltsoff/CLionProjects/Marbot game/gl/gl_martian.cpp
+gl_martian.h
+/Users/coltsoff/CLionProjects/Marbot game/gl/gl_martian.h
+GLFW/glfw3.h
+/Users/coltsoff/CLionProjects/Marbot game/gl/GLFW/glfw3.h
+
+/Users/coltsoff/CLionProjects/Marbot game/gl/gl_martian.h
+gl_object.h
+/Users/coltsoff/CLionProjects/Marbot game/gl/gl_object.h
+utility
+-
+cmath
+-
+../position_t.h
+/Users/coltsoff/CLionProjects/Marbot game/position_t.h
+
+/Users/coltsoff/CLionProjects/Marbot game/gl/gl_maze.cpp
+gl_maze.h
+/Users/coltsoff/CLionProjects/Marbot game/gl/gl_maze.h
+
+/Users/coltsoff/CLionProjects/Marbot game/gl/gl_maze.h
+vector
+-
+array
+-
+algorithm
+-
+iostream
+-
+gl_object.h
+/Users/coltsoff/CLionProjects/Marbot game/gl/gl_object.h
+gl_wall.h
+/Users/coltsoff/CLionProjects/Marbot game/gl/gl_wall.h
+gl_mineral.h
+/Users/coltsoff/CLionProjects/Marbot game/gl/gl_mineral.h
+
+/Users/coltsoff/CLionProjects/Marbot game/gl/gl_mineral.cpp
+gl_mineral.h
+/Users/coltsoff/CLionProjects/Marbot game/gl/gl_mineral.h
+
+/Users/coltsoff/CLionProjects/Marbot game/gl/gl_mineral.h
+gl_object.h
+/Users/coltsoff/CLionProjects/Marbot game/gl/gl_object.h
+
+/Users/coltsoff/CLionProjects/Marbot game/gl/gl_object.h
+GLFW/glfw3.h
+/Users/coltsoff/CLionProjects/Marbot game/gl/GLFW/glfw3.h
+
+/Users/coltsoff/CLionProjects/Marbot game/gl/gl_robot.cpp
+gl_robot.h
+/Users/coltsoff/CLionProjects/Marbot game/gl/gl_robot.h
+
+/Users/coltsoff/CLionProjects/Marbot game/gl/gl_robot.h
+gl_object.h
+/Users/coltsoff/CLionProjects/Marbot game/gl/gl_object.h
+utility
+-
+functional
+-
+cmath
+-
+iostream
+-
+GLFW/glfw3.h
+/Users/coltsoff/CLionProjects/Marbot game/gl/GLFW/glfw3.h
+../position_t.h
+/Users/coltsoff/CLionProjects/Marbot game/position_t.h
+
+/Users/coltsoff/CLionProjects/Marbot game/gl/gl_wall.cpp
+gl_wall.h
+/Users/coltsoff/CLionProjects/Marbot game/gl/gl_wall.h
+
+/Users/coltsoff/CLionProjects/Marbot game/gl/gl_wall.h
+gl_object.h
+/Users/coltsoff/CLionProjects/Marbot game/gl/gl_object.h
+
+/Users/coltsoff/CLionProjects/Marbot game/keyboard_reader.cpp
+iostream
+-
+keyboard_reader.h
+/Users/coltsoff/CLionProjects/Marbot game/keyboard_reader.h
+GLFW/glfw3.h
+/Users/coltsoff/CLionProjects/Marbot game/GLFW/glfw3.h
+
+/Users/coltsoff/CLionProjects/Marbot game/keyboard_reader.h
+functional
+-
+
+/Users/coltsoff/CLionProjects/Marbot game/main.cpp
+iostream
+-
+game.h
+/Users/coltsoff/CLionProjects/Marbot game/game.h
+
+/Users/coltsoff/CLionProjects/Marbot game/manu_marbot.cpp
+manu_marbot.h
+/Users/coltsoff/CLionProjects/Marbot game/manu_marbot.h
+
+/Users/coltsoff/CLionProjects/Marbot game/manu_marbot.h
+keyboard_reader.h
+/Users/coltsoff/CLionProjects/Marbot game/keyboard_reader.h
+mineral_probe.h
+/Users/coltsoff/CLionProjects/Marbot game/mineral_probe.h
+command_processor.h
+/Users/coltsoff/CLionProjects/Marbot game/command_processor.h
+cargo.h
+/Users/coltsoff/CLionProjects/Marbot game/cargo.h
+marbot.h
+/Users/coltsoff/CLionProjects/Marbot game/marbot.h
+
+/Users/coltsoff/CLionProjects/Marbot game/marbot.h
+string
+-
+command_processor.h
+/Users/coltsoff/CLionProjects/Marbot game/command_processor.h
+cargo.h
+/Users/coltsoff/CLionProjects/Marbot game/cargo.h
+mineral_probe.h
+/Users/coltsoff/CLionProjects/Marbot game/mineral_probe.h
+tunnel_map.h
+/Users/coltsoff/CLionProjects/Marbot game/tunnel_map.h
+
+/Users/coltsoff/CLionProjects/Marbot game/martian.cpp
+martian.h
+/Users/coltsoff/CLionProjects/Marbot game/martian.h
+direction.h
+/Users/coltsoff/CLionProjects/Marbot game/direction.h
+cmath
+-
+vector
+-
+algorithm
+-
+functional
+-
+iostream
+-
+GLFW/glfw3.h
+/Users/coltsoff/CLionProjects/Marbot game/GLFW/glfw3.h
+
+/Users/coltsoff/CLionProjects/Marbot game/martian.h
+vector
+-
+functional
+-
+position_t.h
+/Users/coltsoff/CLionProjects/Marbot game/position_t.h
+direction.h
+/Users/coltsoff/CLionProjects/Marbot game/direction.h
+
+/Users/coltsoff/CLionProjects/Marbot game/maze.h
+random
+-
+array
+-
+chrono
+-
+sstream
+-
+algorithm
+-
+iostream
+-
+tuple
+-
+cell_t.h
+/Users/coltsoff/CLionProjects/Marbot game/cell_t.h
+
+/Users/coltsoff/CLionProjects/Marbot game/mineral.h
+string
+-
+sstream
+-
+stdexcept
+-
+
+/Users/coltsoff/CLionProjects/Marbot game/mineral_probe.cpp
+string
+-
+iostream
+-
+memory
+-
+mineral_probe.h
+/Users/coltsoff/CLionProjects/Marbot game/mineral_probe.h
+mineral.h
+/Users/coltsoff/CLionProjects/Marbot game/mineral.h
+
+/Users/coltsoff/CLionProjects/Marbot game/mineral_probe.h
+random
+-
+chrono
+-
+memory
+-
+mineral.h
+/Users/coltsoff/CLionProjects/Marbot game/mineral.h
+maze.h
+/Users/coltsoff/CLionProjects/Marbot game/maze.h
+functional
+-
+
+/Users/coltsoff/CLionProjects/Marbot game/path_marbot.cpp
+sstream
+-
+path_marbot.h
+/Users/coltsoff/CLionProjects/Marbot game/path_marbot.h
+
+/Users/coltsoff/CLionProjects/Marbot game/path_marbot.h
+string
+-
+tunnel_map.h
+/Users/coltsoff/CLionProjects/Marbot game/tunnel_map.h
+mineral_probe.h
+/Users/coltsoff/CLionProjects/Marbot game/mineral_probe.h
+command_processor.h
+/Users/coltsoff/CLionProjects/Marbot game/command_processor.h
+cargo.h
+/Users/coltsoff/CLionProjects/Marbot game/cargo.h
+marbot.h
+/Users/coltsoff/CLionProjects/Marbot game/marbot.h
+
+/Users/coltsoff/CLionProjects/Marbot game/pathfinder.h
+cstddef
+-
+array
+-
+vector
+-
+algorithm
+-
+queue
+-
+maze.h
+/Users/coltsoff/CLionProjects/Marbot game/maze.h
+cell_t.h
+/Users/coltsoff/CLionProjects/Marbot game/cell_t.h
+
+/Users/coltsoff/CLionProjects/Marbot game/position_t.h
+ostream
+-
+cmath
+-
+
+/Users/coltsoff/CLionProjects/Marbot game/route.cpp
+route.h
+/Users/coltsoff/CLionProjects/Marbot game/route.h
+chrono
+-
+sstream
+-
+iostream
+-
+
+/Users/coltsoff/CLionProjects/Marbot game/route.h
+vector
+-
+string
+-
+random
+-
+
+/Users/coltsoff/CLionProjects/Marbot game/tunnel_map.cpp
+tunnel_map.h
+/Users/coltsoff/CLionProjects/Marbot game/tunnel_map.h
+stdexcept
+-
+sstream
+-
+fstream
+-
+iostream
+-
+
+/Users/coltsoff/CLionProjects/Marbot game/tunnel_map.h
+string
+-
+vector
+-
+route.h
+/Users/coltsoff/CLionProjects/Marbot game/route.h
+
